@@ -24,7 +24,7 @@ const IndexPage = ({ data }) => {
 export default IndexPage
 
 export const query = graphql`
-  query HomeQuery {
+  query HomeQueryTest {
     storyblokEntry(full_slug: { eq: "gatsby/test" }) {
       content
       name
