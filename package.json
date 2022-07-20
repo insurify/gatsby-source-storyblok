@@ -7,6 +7,9 @@
     "./playground",
     "./playground-test"
   ],
+  "exports": {
+    "./lib": "./lib/"
+  },
   "scripts": {
     "dev": "npm run dev --workspace=lib & npm run demo",
     "demo": "npm run develop --workspace=playground",
@@ -14,8 +17,7 @@
     "test:unit": "npm run test:unit --workspace=lib",
     "test:e2e": "npm run test:e2e --workspace=lib",
     "test:e2e-watch": "npm run test:e2e-watch --workspace=lib",
-    "prepare": "husky install",
-    "postinstall": "cd lib && test -f package.json && npm install"
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.0",
