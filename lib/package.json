@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-source-storyblok-optimized",
-  "version": "1.0.0",
+  "name": "gatsby-source-storyblok",
+  "version": "4.0.0",
   "description": "SDK to integrate Storyblok into your project using Gatsby.",
   "main": "./dist/gatsby-source-storyblok.js",
   "module": "./dist/gatsby-source-storyblok.mjs",
@@ -23,7 +23,6 @@
   },
   "dependencies": {
     "@storyblok/react": "^1.0.5",
-    "gatsby-source-filesystem": "^4.0.0",
     "json-stringify-safe": "^5.0.1",
     "storyblok-js-client": "^4.5.6"
   },
