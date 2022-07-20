@@ -14,7 +14,8 @@
     "test:unit": "npm run test:unit --workspace=lib",
     "test:e2e": "npm run test:e2e --workspace=lib",
     "test:e2e-watch": "npm run test:e2e-watch --workspace=lib",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "postinstall": "cd ./lib && npm install"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.0",
