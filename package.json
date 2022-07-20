@@ -7,9 +7,6 @@
     "./playground",
     "./playground-test"
   ],
-  "exports": {
-    "./lib": "./lib/"
-  },
   "scripts": {
     "dev": "npm run dev --workspace=lib & npm run demo",
     "demo": "npm run develop --workspace=playground",
